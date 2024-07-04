@@ -15,8 +15,8 @@ return new class extends Migration
             $table->id();
             $table->string('titolo');
             $table->string('autore');
-            $table->string('casa editrice');
-            $table->date('anno di uscita');
+            $table->string('casa_editrice');
+            $table->year('anno');
             $table->text('descrizione')->nullable();
 
             $table->timestamps();
