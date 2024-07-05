@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<h1>Dati da "config/data.php": {{ $home }}</h1>
-<p>This is my paragraph content.</p>
-<button class="btn btn-primary">Cliccami</button>
+    <h1>Vai nella nostra sezione fumetti</h1>
+
+    <a href="/comics" class="btn btn-primary">Fumetti belli</a>
 @endsection
